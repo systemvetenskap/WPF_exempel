@@ -8,7 +8,7 @@ namespace Kortflip.Model
 {
     public class Card
     {
-        public string frontOfCard { get; set; } = "./Assets/Images/Front.png";
-        public string backOfCard { get; set; } = "./Assets/Images/Back.png";
+        public string FrontOfCard { get; set; } = "./Assets/Images/Front.png";
+        public string BackOfCard { get; set; } = "./Assets/Images/Back.png";
     }
 }
