@@ -18,17 +18,6 @@ namespace Kortflip.ViewModel
 
         public ICommand Flip { get; set; }
 
-        //private ImageSource _imgSource;
-
-        //public ImageSource ImgSource
-        //{
-        //    get { return _imgSource; }
-        //    set
-        //    {
-        //        _imgSource = value;
-        //        OnPropertyChanged(nameof(_imgSource));
-        //    }
-        //}
         private BitmapImage _picture;
         public BitmapImage Picture
         {
