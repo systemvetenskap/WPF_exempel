@@ -41,13 +41,13 @@ namespace Kortflip.ViewModel
             if (CardFlipped == true)
             {
 
-                Picture =  new BitmapImage(new Uri(card.frontOfCard, UriKind.Relative));
+                Picture =  new BitmapImage(new Uri(card.FrontOfCard, UriKind.Relative));
                 CardFlipped = false;
             }
             else
             {
 
-                Picture = new BitmapImage(new Uri(card.backOfCard, UriKind.Relative));
+                Picture = new BitmapImage(new Uri(card.BackOfCard, UriKind.Relative));
                 CardFlipped = true;
             }
         }
